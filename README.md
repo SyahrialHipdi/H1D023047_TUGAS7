@@ -1,4 +1,4 @@
-## NIM_Tugas7 – Dokumentasi Proyek
+## H1D023047_Tugas7 – Dokumentasi Proyek
 
 Proyek ini adalah aplikasi Flutter sederhana yang mengimplementasikan:
 
@@ -6,10 +6,6 @@ Proyek ini adalah aplikasi Flutter sederhana yang mengimplementasikan:
 - **Side Menu (Drawer)**
 - **Halaman Login**
 - **Penyimpanan Lokal (SharedPreferences)**
-
-Aplikasi dibuat sebagai tugas praktikum Flutter dengan nama proyek konseptual **`NIM_Tugas7`**.
-
----
 
 ## Fitur Utama
 
@@ -45,7 +41,7 @@ Aplikasi dibuat sebagai tugas praktikum Flutter dengan nama proyek konseptual **
 - **`lib/main.dart`**
   - Menjadi entry point aplikasi dan mendefinisikan konfigurasi `MaterialApp`.
   - Mengatur:
-    - `title` aplikasi (`NIM_Tugas7`).
+    - `title` aplikasi (`H1D023047_Tugas7`).
     - `theme` (warna tema dan penggunaan Material 3).
     - `initialRoute` → `SplashPage.routeName` (`'/'`).
     - `routes` untuk:
@@ -125,32 +121,16 @@ Penyimpanan lokal digunakan untuk dua hal utama:
 
 ---
 
-## Cara Menjalankan Proyek
-
-1. Pastikan Flutter sudah terpasang dan terkonfigurasi (`flutter doctor`).
-2. Jalankan perintah berikut di folder proyek:
-
-   ```bash
-   flutter pub get
-   flutter run
-   ```
-
-3. Masuk menggunakan kredensial:
+## Masuk menggunakan kredensial:
    - **Username**: `admin`
    - **Password**: `admin`
 
----
 
-## Catatan Pengembangan
+## Lampiran
+# Login
+<img width="624" height="1028" alt="image" src="https://github.com/user-attachments/assets/5fc2484e-a274-4945-a5f1-c0b245cb62d9" />
 
-- Proyek ini menggunakan:
-  - **Named routes** untuk navigasi yang lebih terstruktur.
-  - **Material 3** (`useMaterial3: true`) untuk tampilan modern.
-  - **`shared_preferences`** versi `^2.0.17` (lihat `pubspec.yaml`).  
-- Flow aplikasi:
-  1. `SplashPage` → cek login.
-  2. Jika belum login → `LoginPage`.
-  3. Login sukses → simpan ke `SharedPreferences` → `HomePage`.
-  4. Dari `SideMenu` user dapat:
-     - Pindah ke `AboutPage`.
-     - Logout dan kembali ke `LoginPage`.
+# Home dan Side Menu
+<img width="627" height="1028" alt="image" src="https://github.com/user-attachments/assets/829d0ae1-31b2-41b4-b80d-24f0699bf42f" />
+
+
